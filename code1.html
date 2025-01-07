@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="../assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="code1.css">
+
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav-bar">
+                <div class="home" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#" class="h1">Home</a>
+                </div>
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="bar">
+                    <div class="opt">
+                        <img src="../assets/library_icon.png" class="library_icon">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="opt">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-h1">Create your first playlist</p>
+                        <p class="box-h2">Its easy, we'll help you</p>
+                        <button class="box-b1">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-h1">Let's find some Podcast's to follow</p>
+                        <p class="box-h2">We Will keep you updated on new episode's</p>
+                        <button class="box-b1">Browse Podcasts</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="sticky-navbar">
+                <div class="sticky-icons">
+                    <img src="../assets/backward_icon.png" style="opacity: 0.5;">
+                    <img src="../assets/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-install">
+                    <button class="box-b1 hide">Eplore Premium</button>
+                    <button class="box-b1 darkbt"><i class="fa-regular fa-circle-down"></i>Install App</button>
+                    <i class="fa-regular fa-user"></i>
+                </div>
+            </div>
+               <div class="crux">
+                <h2>Recently Played</h2>
+                <div class="cards">
+                <div class="card">
+                    <img src="../assets/card1img.jpeg">
+                    <div class="card-tittle">Top 50-Global</div>
+                    <p class="card-info">Your daily update of the most played tracks right...</p>
+                </div>
+                </div>
+                <h2>Trending now near you</h2>
+                <div class="cards">
+                <div class="card">
+                    <img src="../assets/card2img.jpeg">
+                    <div class="card-tittle">True Story Bro! with..
+                    </div>
+                    <p class="card-info">Spotify</p>
+                </div>
+                <div class="card">
+                    <img src="../assets/card3img.jpeg">
+                    <div class="card-tittle">Decode Dil with Ekta</div>
+                    <p class="card-info">Spotify Studios</p>
+                </div>
+                <div class="card">
+                    <img src="../assets/card4img.jpeg">
+                    <div class="card-tittle">Decode Dil with Ekta</div>
+                    <p class="card-info">Spotify Studios</p>
+                </div>
+                <div class="card">
+                    <img src="../assets/card3img.jpeg">
+                    <div class="card-tittle">Decode Dil with Ekta</div>
+                    <p class="card-info">Spotify Studios</p>
+                </div>
+                <div class="card">
+                    <img src="../assets/card4img.jpeg">
+                    <div class="card-tittle">Decode Dil with Ekta</div>
+                    <p class="card-info">Spotify Studios</p>
+                </div>
+                </div>
+                <h2>Featured Charts</h2>
+                <div class="cards">
+                    <div class="card">
+                        <img src="../assets/card5img.jpeg">
+                        <div class="card-tittle">Decode Dil with Ekta</div>
+                        <p class="card-info">Spotify Studios</p>
+                    </div>
+                    <div class="card">
+                        <img src="../assets/card6img.jpeg">
+                        <div class="card-tittle">Decode Dil with Ekta</div>
+                        <p class="card-info">Spotify Studios</p>
+                    </div>
+                    <div class="card">
+                        <img src="../assets/card1img.jpeg">
+                        <div class="card-tittle">Decode Dil with Ekta</div>
+                        <p class="card-info">Spotify Studios</p>
+                    </div>
+                </div>
+                <br>
+                <br><br><br>
+            </div>
+        </div>
+               </div>
+        <div class="player">
+            <div class="album">
+                <img src="../assets/card2img.jpeg">
+                <div>
+                    <h4  class="writer">fav song</h4>
+                    <div class="writer w1">hrvy feat badboy</div>
+                </div>
+                <div class="album-icon">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-arrows-to-dot"></i>
+                </div>
+            </div>
+            <div class="control">
+                <div class="controls shift">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward-step"></i>
+                    <label for="playbtn">
+                        <input type="checkbox" id="playbtn"><i class="fa-solid fa-circle-play playbtn2" style="opacity: 1;"></i>
+                                       <i class="fa-solid fa-pause playbtn1" style="opacity: 1;"></i>
+                    </label>
+                    <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-regular fa-bookmark"></i>
+                </div>
+                <div class="controls">
+                    <div>00:00</div>
+                    <input type="range"  step="1" class="range">
+                    <div>03:33</div>
+                </div>
+            </div>
+            <div class="extra">
+                <div class="ex-icons">
+                    <i class="fa-solid fa-sliders"></i>
+                    <i class="fa-solid fa-microphone"></i>
+                    <i class="fa-solid fa-volume-high"></i>
+                    <input type="range" step="1">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
